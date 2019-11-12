@@ -1,0 +1,4 @@
+*.json
+*.zip
+*.env
+third_party/*

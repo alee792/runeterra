@@ -1,0 +1,36 @@
+syntax = "proto3";
+
+package runeterra;
+
+import "github.com/gogo/protobuf/gogoproto/gogo.proto";
+
+message Core {
+  repeated Keyword keywords = 1;
+  repeated Region regions = 2;
+  repeated ID spell_speeds = 3 [(gogoproto.jsontag) = "spellSpeeds"];
+  repeated ID rarities = 4 [(gogoproto.jsontag) = "rarities"];
+}
+
+message ID {
+  string name_ref = 1 [(gogoproto.jsontag) = "nameRef"];
+  string name = 2;
+}
+
+message Keyword {
+  ID id = 1 [(gogoproto.embed) = true, (gogoproto.jsontag)=""];
+  string description = 2;
+}
+
+message Region {
+  ID id = 1 [(gogoproto.embed) = true, (gogoproto.jsontag)=""];
+  string abbreviation = 2;
+  string icon_absolute_path = 3;
+}
+
+message SpellSpeed {
+  ID id = 1 [(gogoproto.embed) = true, (gogoproto.jsontag)=""];
+}
+
+message Rarity {
+  ID id = 1 [(gogoproto.embed) = true, (gogoproto.jsontag)=""];
+}
