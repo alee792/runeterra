@@ -2,6 +2,8 @@ syntax = "proto3";
 
 package runeterra;
 
+// gogo is used to avoid the usage of jsonpb.
+// It's likely future extensions will also be used.
 import "github.com/gogo/protobuf/gogoproto/gogo.proto";
 
 message Core {
@@ -33,4 +35,39 @@ message SpellSpeed {
 
 message Rarity {
   ID id = 1 [(gogoproto.embed) = true, (gogoproto.jsontag)=""];
+}
+
+message Set {
+  repeated Card cards = 1 [(gogoproto.jsontag)=""];
+}
+
+message Card {
+  string cardCode = 1 [(gogoproto.jsontag)="cardCode"];
+  string name = 2;
+  repeated string associated_cards = 3 [(gogoproto.jsontag)="associatedCards"];
+  repeated string associated_card_refs = 4 [(gogoproto.jsontag)="associatedCardRefs"];
+  repeated Asset assets = 5;
+  string region = 6;
+  string region_ref = 7 [(gogoproto.jsontag)="regionRef"];
+  int64 attack = 8;
+  int64 cost = 9;
+  int64 health = 10;
+  string description = 11;
+  string description_raw = 12 [(gogoproto.jsontag)="descriptionRaw"];
+  string flavor_text = 13 [(gogoproto.jsontag)="flavorText"];
+  string artist_name = 14 [(gogoproto.jsontag)="artistName"];
+  repeated string keywords = 15;
+  repeated string keyword_refs = 16 [(gogoproto.jsontag)="keywordRefs"];
+  string spell_speed = 17 [(gogoproto.jsontag)="spellSpeed"];
+  string rarity = 18;
+  string rarity_ref = 19 [(gogoproto.jsontag)="rarityRef"];
+  string subtype = 20;
+  string supertype = 21;
+  string type = 22;
+  bool collectible = 23;
+}
+
+message Asset {
+  string game_absolute_path = 1;
+  string full_absolute_path = 2;
 }

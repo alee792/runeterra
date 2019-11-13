@@ -10,4 +10,5 @@ proto:
 
 .PHONY: data
 data:
-	go run ./cmd/gen -p third_party/core/en_us/data/globals-en_us.json
+	# go run ./cmd/gen core third_party/core/en_us/data/globals-en_us.json
+	go run ./cmd/gen set third_party/set1/en_us/data/set1-en_us.json pkg/datadragon/set1.go 
