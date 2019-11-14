@@ -16,10 +16,14 @@ import (
 
 func main() {
 	var (
-		app  = kingpin.New("dragen", "Generate Go types from Data Dragon")
+		app = kingpin.New("dragen", "Generate Go types from Data Dragon")
+
+		pkg = app.Flag("pkg", "package name for the output file").Default("datadragon").String()
+
 		dTyp = app.Arg("type", "Data Dragon type").Required().HintOptions("core", "set").String()
 		in   = app.Arg("in", "path to Data Dragon file").Required().String()
 		out  = app.Arg("out", "path to write Go types to file").String()
+		// raw  = app.Flag("raw", "unpack Data Dragon into flat structs").Short('r').Bool()
 	)
 
 	app.HelpFlag.Short('h')
@@ -27,11 +31,11 @@ func main() {
 
 	switch *dTyp {
 	case "core":
-		if err := generateCore(*in, *out); err != nil {
+		if err := generateCore(*pkg, *in, *out); err != nil {
 			panic(err)
 		}
 	case "set":
-		if err := generateSet(*in, *out); err != nil {
+		if err := generateSet(*pkg, *in, *out); err != nil {
 			panic(err)
 		}
 	default:
@@ -39,7 +43,16 @@ func main() {
 
 }
 
-func generateCore(in, out string) error {
+func generateCore(pkg, in, out string) error {
+	f := jen.NewFile("datadragon")
+	f.Comment("Auto-generated from Data Dragon.")
+
+	reg, err := regexp.Compile("[^a-zA-Z0-9]+")
+	if err != nil {
+		return err
+	}
+
+	// Read JSON.
 	bb, err := ioutil.ReadFile(in)
 	if err != nil {
 		return err
@@ -50,17 +63,9 @@ func generateCore(in, out string) error {
 		return err
 	}
 
-	f := jen.NewFile("datadragon")
-
-	f.Comment("Auto-generated from Data Dragon en_us.")
-
+	// Begin generation.
 	var cc []jen.Code
-	pkg := "github.com/alee792/runeterra/proto"
-
-	reg, err := regexp.Compile("[^a-zA-Z0-9]+")
-	if err != nil {
-		return err
-	}
+	basePkg := "github.com/alee792/runeterra/proto"
 
 	cc = append(cc, jen.Comment("Keywords"))
 	for _, v := range core.GetKeywords() {
@@ -68,9 +73,9 @@ func generateCore(in, out string) error {
 		cc = append(cc,
 			jen.Id(fmt.Sprintf("Keyword%s", cleanName)).
 				Op("=").
-				Qual(pkg, "Keyword").
+				Qual(basePkg, "Keyword").
 				Values(jen.Dict{
-					jen.Id("ID"):          embeddedID(pkg, v.GetNameRef(), v.GetName()),
+					jen.Id("ID"):          unpackID(basePkg, v.GetNameRef(), v.GetName()),
 					jen.Id("Description"): jen.Lit(v.GetDescription()),
 				}).Op("\n"),
 		)
@@ -81,9 +86,9 @@ func generateCore(in, out string) error {
 		cc = append(cc,
 			jen.Id(fmt.Sprintf("Region%s", strings.Replace(v.GetNameRef(), " ", "", -1))).
 				Op("=").
-				Qual(pkg, "Region").
+				Qual(basePkg, "Region").
 				Values(jen.Dict{
-					jen.Id("ID"):               embeddedID(pkg, v.GetNameRef(), v.GetName()),
+					jen.Id("ID"):               unpackID(basePkg, v.GetNameRef(), v.GetName()),
 					jen.Id("Abbreviation"):     jen.Lit(v.GetAbbreviation()),
 					jen.Id("IconAbsolutePath"): jen.Lit(v.GetIconAbsolutePath()),
 				}).Op("\n"),
@@ -95,9 +100,9 @@ func generateCore(in, out string) error {
 		cc = append(cc,
 			jen.Id(fmt.Sprintf("SpellSpeed%s", strings.Replace(v.GetNameRef(), " ", "", -1))).
 				Op("=").
-				Qual(pkg, "SpellSpeed").
+				Qual(basePkg, "SpellSpeed").
 				Values(jen.Dict{
-					jen.Id("\nID"): embeddedID(pkg, v.GetNameRef(), v.GetName()).Op(",\n"),
+					jen.Id("\nID"): unpackID(basePkg, v.GetNameRef(), v.GetName()).Op(",\n"),
 				}).Op("\n"),
 		)
 	}
@@ -107,9 +112,9 @@ func generateCore(in, out string) error {
 		cc = append(cc,
 			jen.Id(fmt.Sprintf("Rarity%s", strings.Replace(v.GetNameRef(), " ", "", -1))).
 				Op("=").
-				Qual(pkg, "Rarity").
+				Qual(basePkg, "Rarity").
 				Values(jen.Dict{
-					jen.Id("\nID"): embeddedID(pkg, v.GetNameRef(), v.GetName()).Op(",\n"),
+					jen.Id("\nID"): unpackID(basePkg, v.GetNameRef(), v.GetName()).Op(",\n"),
 				}).Op("\n"),
 		)
 	}
@@ -128,7 +133,15 @@ func generateCore(in, out string) error {
 	return nil
 }
 
-func generateSet(in, out string) error {
+func generateSet(pkg, in, out string) error {
+	f := jen.NewFile("datadragon")
+	f.Comment("Auto-generated from Data Dragon.")
+
+	reg, err := regexp.Compile("[^a-zA-Z0-9]+")
+	if err != nil {
+		return err
+	}
+
 	bb, err := ioutil.ReadFile(in)
 	if err != nil {
 		return err
@@ -139,17 +152,8 @@ func generateSet(in, out string) error {
 		return err
 	}
 
-	f := jen.NewFile("datadragon")
-
-	f.Comment("Auto-generated from Data Dragon en_us.")
-
 	var cc []jen.Code
-	pkg := "github.com/alee792/runeterra/proto"
-
-	reg, err := regexp.Compile("[^a-zA-Z0-9]+")
-	if err != nil {
-		return err
-	}
+	basePkg := "github.com/alee792/runeterra/proto"
 
 	cc = append(cc, jen.Comment("Cards"))
 	for _, v := range set {
@@ -161,7 +165,7 @@ func generateSet(in, out string) error {
 		cc = append(cc,
 			jen.Id(fmt.Sprintf("Card%s", cleanName)).
 				Op("=").
-				Qual(pkg, "Card").
+				Qual(basePkg, "Card").
 				Values(jen.Dict{
 					jen.Id("CardCode"):           jen.Lit(v.GetCardCode()),
 					jen.Id("Name"):               jen.Lit(v.GetName()),
@@ -184,8 +188,7 @@ func generateSet(in, out string) error {
 					jen.Id("AssociatedCardRefs"): jen.Index().String().Values(wrapLit(v.GetAssociatedCardRefs())...),
 					jen.Id("Keywords"):           jen.Index().String().Values(wrapLit(v.GetKeywords())...),
 					jen.Id("KeywordRefs"):        jen.Index().String().Values(wrapLit(v.GetKeywordRefs())...),
-					// jen.Id("Assets"):             jen.List(v.GetAssets()),
-
+					jen.Id("Assets"):             jen.Index().Op("*").Qual(basePkg, "Asset").Values(unpackAssets(basePkg, v)...),
 				}).Op("\n"),
 		)
 	}
@@ -204,7 +207,26 @@ func generateSet(in, out string) error {
 	return nil
 }
 
-func embeddedID(pkg, nameRef, name string) *jen.Statement {
+func unpackAssets(pkg string, v pb.Card) []jen.Code {
+	var ss []jen.Code
+
+	aa := v.GetAssets()
+	if len(aa) == 1 && aa[0].GetFullAbsolutePath() == "" {
+		return nil
+	}
+
+	for _, a := range aa {
+		ss = append(ss,
+			jen.Op("\n&").Qual(pkg, "Asset").Values(jen.Dict{
+				jen.Id("GameAbsolutePath"): jen.Lit(a.GetGameAbsolutePath()),
+				jen.Id("FullAbsolutePath"): jen.Lit(a.GetFullAbsolutePath()),
+			}),
+		)
+	}
+	return ss
+}
+
+func unpackID(pkg, nameRef, name string) *jen.Statement {
 	return jen.Op("&").Qual(pkg, "ID").Values(jen.Dict{
 		jen.Id("NameRef"): jen.Lit(nameRef),
 		jen.Id("Name"):    jen.Lit(name),

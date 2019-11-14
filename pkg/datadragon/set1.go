@@ -2,11 +2,12 @@ package datadragon
 
 import proto "github.com/alee792/runeterra/proto"
 
-// Auto-generated from Data Dragon en_us.
+// Auto-generated from Data Dragon.
 var (
 	// Cards
 	CardDisciplineofFortitudeT2 = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -31,6 +32,7 @@ var (
 
 	CardDravenT3 = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{"01NX020T1", "01NX020T2", "01NX020"},
 		AssociatedCards:    []string{},
 		Attack:             5,
@@ -55,6 +57,7 @@ var (
 
 	CardDawnspeakers = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             1,
@@ -79,6 +82,7 @@ var (
 
 	CardYusaritheSlayerT1 = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             3,
@@ -103,6 +107,7 @@ var (
 
 	CardJinxsGetExcitedT3 = proto.Card{
 		ArtistName:         "Original Force",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{"01PZ040", "01PZ040T1"},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -127,6 +132,7 @@ var (
 
 	CardGlacialStormT2 = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{"01FR024", "01FR024T3"},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -151,6 +157,7 @@ var (
 
 	CardTeemoT2 = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{"01PZ022", "01PZ008", "01PZ008T1"},
 		AssociatedCards:    []string{},
 		Attack:             2,
@@ -175,6 +182,7 @@ var (
 
 	CardLucian = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{"01DE038", "01DE022T1", "01DE022T2"},
 		AssociatedCards:    []string{},
 		Attack:             3,
@@ -199,6 +207,7 @@ var (
 
 	CardYasuoT1 = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{"01IO015T2", "01IO015"},
 		AssociatedCards:    []string{},
 		Attack:             5,
@@ -223,6 +232,7 @@ var (
 
 	CardHeimerdinger = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{"01PZ056T10", "01PZ056T3", "01PZ056T1", "01PZ056T4", "01PZ056T7", "01PZ056T6", "01PZ056T8", "01PZ056T2", "01PZ056T9", "01PZ056T5", "01PZ015"},
 		AssociatedCards:    []string{},
 		Attack:             1,
@@ -247,6 +257,7 @@ var (
 
 	CardKeeperofMasks = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             2,
@@ -271,6 +282,7 @@ var (
 
 	CardTryndameresBattleFuryT1 = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{"01FR039", "01FR039T2"},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -295,6 +307,7 @@ var (
 
 	CardAugmentedExperimenter = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{"01PZ013T1"},
 		AssociatedCards:    []string{},
 		Attack:             3,
@@ -319,6 +332,7 @@ var (
 
 	CardMobilize = proto.Card{
 		ArtistName:         "Kudos Productions",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -343,6 +357,7 @@ var (
 
 	CardCullingStrike = proto.Card{
 		ArtistName:         "Rafael Zanchetin",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -367,6 +382,7 @@ var (
 
 	CardParadeElectrorig = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             3,
@@ -391,6 +407,7 @@ var (
 
 	CardHeimerdinger10 = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{"01PZ056T3", "01PZ056T1", "01PZ056T4", "01PZ056T7", "01PZ056T6", "01PZ056T8", "01PZ056T2", "01PZ056T9", "01PZ056T5", "01PZ015", "01PZ056"},
 		AssociatedCards:    []string{},
 		Attack:             2,
@@ -415,6 +432,7 @@ var (
 
 	CardPhantomPrankster = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -439,6 +457,7 @@ var (
 
 	CardLuxsPrismaticBarrierT1 = proto.Card{
 		ArtistName:         "Kudos Productions",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{"01DE042", "01DE042T2"},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -463,6 +482,7 @@ var (
 
 	CardAcademyProdigy = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             3,
@@ -487,6 +507,7 @@ var (
 
 	CardHeraldofSpring = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             2,
@@ -511,6 +532,7 @@ var (
 
 	CardFaeBladetwirler = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             1,
@@ -535,6 +557,7 @@ var (
 
 	CardCrimsonCurator = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             3,
@@ -559,6 +582,7 @@ var (
 
 	CardIcebornLegacy = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -583,6 +607,7 @@ var (
 
 	CardGhost = proto.Card{
 		ArtistName:         "Kudos Productions",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -607,6 +632,7 @@ var (
 
 	CardOmenHawk = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             1,
@@ -631,6 +657,7 @@ var (
 
 	CardHarshWinds = proto.Card{
 		ArtistName:         "Kudos Productions",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -655,6 +682,7 @@ var (
 
 	CardGlimpseBeyond = proto.Card{
 		ArtistName:         "Kudos Productions",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -679,6 +707,7 @@ var (
 
 	CardElisesCrawlingSensationT1 = proto.Card{
 		ArtistName:         "Kudos Productions",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{"01SI002", "01SI053", "01SI053T2"},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -703,6 +732,7 @@ var (
 
 	CardBraum = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{"01FR009T1", "01FR009T2", "01FR053"},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -727,6 +757,7 @@ var (
 
 	CardAncientCrocolith = proto.Card{
 		ArtistName:         "JiHun Lee",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             7,
@@ -751,6 +782,7 @@ var (
 
 	CardSwiftwingLancer = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             5,
@@ -775,6 +807,7 @@ var (
 
 	CardSoulShepherd = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             2,
@@ -799,6 +832,7 @@ var (
 
 	CardEagerApprentice = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             2,
@@ -823,6 +857,7 @@ var (
 
 	CardDarius = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{"01NX038T2", "01NX038T1"},
 		AssociatedCards:    []string{},
 		Attack:             6,
@@ -847,6 +882,7 @@ var (
 
 	CardKinkouLifeblade = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             2,
@@ -871,6 +907,7 @@ var (
 
 	CardRimefangWolf = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             3,
@@ -895,6 +932,7 @@ var (
 
 	CardVanguardDefender = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             2,
@@ -919,6 +957,7 @@ var (
 
 	CardBattlesmith = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             2,
@@ -943,6 +982,7 @@ var (
 
 	CardTiannaCrownguard = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             7,
@@ -967,6 +1007,7 @@ var (
 
 	CardArachnoidHost = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             5,
@@ -991,6 +1032,7 @@ var (
 
 	CardKarmaT1 = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{"01IO041", "01IO041T2"},
 		AssociatedCards:    []string{},
 		Attack:             5,
@@ -1015,6 +1057,7 @@ var (
 
 	CardGarenT1 = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{"01DE012T2", "01DE012"},
 		AssociatedCards:    []string{},
 		Attack:             7,
@@ -1039,6 +1082,7 @@ var (
 
 	CardStandAlone = proto.Card{
 		ArtistName:         "Kudos Productions",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -1063,6 +1107,7 @@ var (
 
 	CardJinx = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{"01PZ040T2", "01PZ040T1", "01PZ040T3"},
 		AssociatedCards:    []string{},
 		Attack:             4,
@@ -1087,6 +1132,7 @@ var (
 
 	CardDecisiveManeuver = proto.Card{
 		ArtistName:         "Original Force",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -1111,6 +1157,7 @@ var (
 
 	CardFiora = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{"01DE045T1", "01DE045T2"},
 		AssociatedCards:    []string{},
 		Attack:             3,
@@ -1135,6 +1182,7 @@ var (
 
 	CardPuffcapPeddler = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{"01PZ022"},
 		AssociatedCards:    []string{},
 		Attack:             3,
@@ -1159,6 +1207,7 @@ var (
 
 	CardBrightsteelFormation = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             9,
@@ -1183,6 +1232,7 @@ var (
 
 	CardSuperMegaDeathRocketT2 = proto.Card{
 		ArtistName:         "Ben Skutt",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{"01PZ040T1"},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -1207,6 +1257,7 @@ var (
 
 	CardElise = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{"01SI002", "01SI053T2", "01SI053T1"},
 		AssociatedCards:    []string{},
 		Attack:             2,
@@ -1231,6 +1282,7 @@ var (
 
 	CardRelentlessPursuit = proto.Card{
 		ArtistName:         "Max Grecke",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -1255,6 +1307,7 @@ var (
 
 	CardMagnumOpusT1 = proto.Card{
 		ArtistName:         "Kudos Productions",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -1279,6 +1332,7 @@ var (
 
 	CardParalyzingBiteT1 = proto.Card{
 		ArtistName:         "Kudos Productions",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -1303,6 +1357,7 @@ var (
 
 	CardTransfusion = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -1327,6 +1382,7 @@ var (
 
 	CardOnslaughtofShadows = proto.Card{
 		ArtistName:         "Kudos Productions",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{"01SI024"},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -1351,6 +1407,7 @@ var (
 
 	CardLegionSaboteur = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{"01NX040T1"},
 		AssociatedCards:    []string{},
 		Attack:             2,
@@ -1375,6 +1432,7 @@ var (
 
 	CardHecarimT1 = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{"01SI024", "01SI042", "01SI042T2"},
 		AssociatedCards:    []string{},
 		Attack:             5,
@@ -1399,6 +1457,7 @@ var (
 
 	CardScrapScuttler32 = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             1,
@@ -1423,6 +1482,7 @@ var (
 
 	CardZedT2 = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{"01IO009T1", "01IO009", "01IO009T3"},
 		AssociatedCards:    []string{},
 		Attack:             4,
@@ -1447,6 +1507,7 @@ var (
 
 	CardVilemawT1 = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             6,
@@ -1471,6 +1532,7 @@ var (
 
 	CardGreengladeElder = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             1,
@@ -1495,6 +1557,7 @@ var (
 
 	CardDariusT2 = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{"01NX038", "01NX038T1"},
 		AssociatedCards:    []string{},
 		Attack:             10,
@@ -1519,6 +1582,7 @@ var (
 
 	CardLuciansRelentlessPursuitT2 = proto.Card{
 		ArtistName:         "Max Grecke",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{"01DE022", "01DE022T1"},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -1543,6 +1607,7 @@ var (
 
 	CardJuryRig = proto.Card{
 		ArtistName:         "Kudos Productions",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{"01PZ032"},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -1567,6 +1632,7 @@ var (
 
 	CardDetain = proto.Card{
 		ArtistName:         "Rafael Zanchetin",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -1591,6 +1657,7 @@ var (
 
 	CardAvarosanMarksman = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{"01FR036T1"},
 		AssociatedCards:    []string{},
 		Attack:             3,
@@ -1615,6 +1682,7 @@ var (
 
 	CardNimblePoro = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             1,
@@ -1639,6 +1707,7 @@ var (
 
 	CardScarthaneSteffen = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             2,
@@ -1663,6 +1732,7 @@ var (
 
 	CardNavoriConspirator = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             3,
@@ -1687,6 +1757,7 @@ var (
 
 	CardJubilantPoroT1 = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{"01FR008"},
 		AssociatedCards:    []string{},
 		Attack:             1,
@@ -1711,6 +1782,7 @@ var (
 
 	CardShatter = proto.Card{
 		ArtistName:         "Kudos Productions",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -1735,6 +1807,7 @@ var (
 
 	CardCrystalArrowT3 = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -1759,6 +1832,7 @@ var (
 
 	CardArachnoidSentry = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{"01NX046T1"},
 		AssociatedCards:    []string{},
 		Attack:             3,
@@ -1783,6 +1857,7 @@ var (
 
 	CardRisingSpellForce = proto.Card{
 		ArtistName:         "Original Force",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -1807,6 +1882,7 @@ var (
 
 	CardMk3FloorBGoneT6 = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             3,
@@ -1831,6 +1907,7 @@ var (
 
 	CardJeweledProtector = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             3,
@@ -1855,6 +1932,7 @@ var (
 
 	CardCursedKeeper = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{"01SI048T1"},
 		AssociatedCards:    []string{},
 		Attack:             1,
@@ -1879,6 +1957,7 @@ var (
 
 	CardUndermineT1 = proto.Card{
 		ArtistName:         "Kudos Productions",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -1903,6 +1982,7 @@ var (
 
 	CardImpersonate = proto.Card{
 		ArtistName:         "Kudos Productions",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -1927,6 +2007,7 @@ var (
 
 	CardBrothersBond = proto.Card{
 		ArtistName:         "Wild Blue Studios",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -1951,6 +2032,7 @@ var (
 
 	CardHouseSpider = proto.Card{
 		ArtistName:         "Alex Heath",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{"01SI002"},
 		AssociatedCards:    []string{},
 		Attack:             2,
@@ -1975,6 +2057,7 @@ var (
 
 	CardJudgment = proto.Card{
 		ArtistName:         "Kudos Productions",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -1999,6 +2082,7 @@ var (
 
 	CardUsedCaskSalesman = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{"01PZ047"},
 		AssociatedCards:    []string{},
 		Attack:             2,
@@ -2023,6 +2107,7 @@ var (
 
 	CardSumpDredger = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             4,
@@ -2047,6 +2132,7 @@ var (
 
 	CardMk2EvolutionTurretT7 = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             2,
@@ -2071,6 +2157,7 @@ var (
 
 	CardScribeofSorrows = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             2,
@@ -2095,6 +2182,7 @@ var (
 
 	CardTeemosMushroomCloudT1 = proto.Card{
 		ArtistName:         "",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{"01PZ022", "01PZ008", "01PZ008T2"},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -2119,6 +2207,7 @@ var (
 
 	CardKalistaT2 = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{"01SI030T1", "01SI030"},
 		AssociatedCards:    []string{},
 		Attack:             5,
@@ -2143,6 +2232,7 @@ var (
 
 	CardEntreat = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -2167,6 +2257,7 @@ var (
 
 	CardNightHarvestT1 = proto.Card{
 		ArtistName:         "Kudos Productions",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -2191,6 +2282,7 @@ var (
 
 	CardKalista = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{"01SI030T2", "01SI030T1"},
 		AssociatedCards:    []string{},
 		Attack:             4,
@@ -2215,6 +2307,7 @@ var (
 
 	CardSownSeeds = proto.Card{
 		ArtistName:         "Wild Blue Studios",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -2239,6 +2332,7 @@ var (
 
 	CardEzrealT1 = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{"01PZ052", "01PZ036", "01PZ036T2"},
 		AssociatedCards:    []string{},
 		Attack:             2,
@@ -2263,6 +2357,7 @@ var (
 
 	CardUnscarredReaver = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -2287,6 +2382,7 @@ var (
 
 	CardDeathMark = proto.Card{
 		ArtistName:         "Kudos Productions",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -2311,6 +2407,7 @@ var (
 
 	CardJaeMedarda = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             6,
@@ -2335,6 +2432,7 @@ var (
 
 	CardShadyCharacter = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{"01PZ030T1"},
 		AssociatedCards:    []string{},
 		Attack:             1,
@@ -2359,6 +2457,7 @@ var (
 
 	CardShadowFlare = proto.Card{
 		ArtistName:         "Kudos Productions",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -2383,6 +2482,7 @@ var (
 
 	CardCorinaVeraza = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{"01PZ048T1"},
 		AssociatedCards:    []string{},
 		Attack:             7,
@@ -2407,6 +2507,7 @@ var (
 
 	CardCatalystofAeons = proto.Card{
 		ArtistName:         "Kudos Production",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -2431,6 +2532,7 @@ var (
 
 	CardDravensWhirlingDeathT2 = proto.Card{
 		ArtistName:         "Rafael Zanchetin",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{"01NX020", "01NX020T3"},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -2455,6 +2557,7 @@ var (
 
 	CardCrimsonDisciple = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             2,
@@ -2479,6 +2582,7 @@ var (
 
 	CardEnragedYeti28 = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             5,
@@ -2503,6 +2607,7 @@ var (
 
 	CardMushroomCloud = proto.Card{
 		ArtistName:         "Kudos Productions",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{"01PZ022"},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -2527,6 +2632,7 @@ var (
 
 	CardArenaBattlecaster = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             2,
@@ -2551,6 +2657,7 @@ var (
 
 	CardZauniteUrchin = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             2,
@@ -2575,6 +2682,7 @@ var (
 
 	CardInspiringMentor = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             1,
@@ -2599,6 +2707,7 @@ var (
 
 	CardRecklessResearchT1 = proto.Card{
 		ArtistName:         "Rafael Zanchetin",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -2623,6 +2732,7 @@ var (
 
 	CardBackAlleyBarkeep = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{"01PZ002"},
 		AssociatedCards:    []string{},
 		Attack:             2,
@@ -2647,6 +2757,7 @@ var (
 
 	CardSpiderling02 = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             1,
@@ -2671,6 +2782,7 @@ var (
 
 	CardScuttlegeist = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             5,
@@ -2695,6 +2807,7 @@ var (
 
 	CardAshe = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{"01FR038T2", "01FR038T1", "01FR038T3"},
 		AssociatedCards:    []string{},
 		Attack:             5,
@@ -2719,6 +2832,7 @@ var (
 
 	CardLaurentDuelist = proto.Card{
 		ArtistName:         "JiHun Lee",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             3,
@@ -2743,6 +2857,7 @@ var (
 
 	CardTrueshotBarrage = proto.Card{
 		ArtistName:         "Max Grecke",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -2767,6 +2882,7 @@ var (
 
 	CardMageseekerInciter = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             1,
@@ -2791,6 +2907,7 @@ var (
 
 	CardDawnandDusk = proto.Card{
 		ArtistName:         "Kudos Productions",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -2815,6 +2932,7 @@ var (
 
 	CardSpiderQueenEliseT2 = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{"01SI053T1", "01SI053"},
 		AssociatedCards:    []string{},
 		Attack:             4,
@@ -2839,6 +2957,7 @@ var (
 
 	CardVanguardBannerman = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             3,
@@ -2863,6 +2982,7 @@ var (
 
 	CardDaringPoro = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             1,
@@ -2887,6 +3007,7 @@ var (
 
 	CardLegionMarauder = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             3,
@@ -2911,6 +3032,7 @@ var (
 
 	CardAvalanche = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -2935,6 +3057,7 @@ var (
 
 	CardCounterfeitCopies = proto.Card{
 		ArtistName:         "Kudos Productions",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -2959,6 +3082,7 @@ var (
 
 	CardScaledSnapper = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             2,
@@ -2983,6 +3107,7 @@ var (
 
 	CardYetiYearling = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{"01FR028"},
 		AssociatedCards:    []string{},
 		Attack:             1,
@@ -3007,6 +3132,7 @@ var (
 
 	CardSinisterPoro = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             1,
@@ -3031,6 +3157,7 @@ var (
 
 	CardCrowdFavorite = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             2,
@@ -3055,6 +3182,7 @@ var (
 
 	CardShadowAssassin = proto.Card{
 		ArtistName:         "JiHun Lee",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             2,
@@ -3079,6 +3207,7 @@ var (
 
 	CardScaledSnapperT2 = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             5,
@@ -3103,6 +3232,7 @@ var (
 
 	CardBoomcrewRookie = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{"01PZ054T1"},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -3127,6 +3257,7 @@ var (
 
 	CardDraven = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{"01NX020T1", "01NX020T3", "01NX020T2"},
 		AssociatedCards:    []string{},
 		Attack:             4,
@@ -3151,6 +3282,7 @@ var (
 
 	CardMysticShot = proto.Card{
 		ArtistName:         "Max Grecke",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -3175,6 +3307,7 @@ var (
 
 	CardAniviasHarshWindsT1 = proto.Card{
 		ArtistName:         "Kudos Productions",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{"01FR024", "01FR024T3", "01FR024T4"},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -3199,6 +3332,7 @@ var (
 
 	CardWarChefs = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             2,
@@ -3223,6 +3357,7 @@ var (
 
 	CardEzreal = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{"01PZ052", "01PZ036T1", "01PZ036T2"},
 		AssociatedCards:    []string{},
 		Attack:             1,
@@ -3247,6 +3382,7 @@ var (
 
 	CardScaledSnapperT1 = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             2,
@@ -3271,6 +3407,7 @@ var (
 
 	CardEscapedAbominationT1 = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             4,
@@ -3295,6 +3432,7 @@ var (
 
 	CardTHex15 = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             8,
@@ -3319,6 +3457,7 @@ var (
 
 	CardReckoning = proto.Card{
 		ArtistName:         "Kudos Productions",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -3343,6 +3482,7 @@ var (
 
 	CardHextechTransmogulator = proto.Card{
 		ArtistName:         "Kudos Productions",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -3367,6 +3507,7 @@ var (
 
 	CardDariussDecimateT1 = proto.Card{
 		ArtistName:         "Max Grecke",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{"01NX038", "01NX038T2"},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -3391,6 +3532,7 @@ var (
 
 	CardThresh = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{"01SI052T1", "01SI052T2"},
 		AssociatedCards:    []string{},
 		Attack:             3,
@@ -3415,6 +3557,7 @@ var (
 
 	CardLucianT1 = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{"01DE022T2", "01DE022"},
 		AssociatedCards:    []string{},
 		Attack:             4,
@@ -3439,6 +3582,7 @@ var (
 
 	CardPluckyPoro = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             1,
@@ -3463,6 +3607,7 @@ var (
 
 	CardGarensJudgmentT2 = proto.Card{
 		ArtistName:         "Kudos Productions",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{"01DE012", "01DE012T1"},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -3487,6 +3632,7 @@ var (
 
 	CardCommanderLedros = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{"01SI033T1"},
 		AssociatedCards:    []string{},
 		Attack:             8,
@@ -3511,6 +3657,7 @@ var (
 
 	CardMidenstokkeHenchmen = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             5,
@@ -3535,6 +3682,7 @@ var (
 
 	CardTheHarrowing = proto.Card{
 		ArtistName:         "Rafael Zanchetin",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -3559,6 +3707,7 @@ var (
 
 	CardTheUndying = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             2,
@@ -3583,6 +3732,7 @@ var (
 
 	CardSabotageT1 = proto.Card{
 		ArtistName:         "Kudos Productions",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -3607,6 +3757,7 @@ var (
 
 	CardStalkingWolf = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{"01FR049T1"},
 		AssociatedCards:    []string{},
 		Attack:             3,
@@ -3631,6 +3782,7 @@ var (
 
 	CardShenT1 = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{"01IO032T2", "01IO032"},
 		AssociatedCards:    []string{},
 		Attack:             3,
@@ -3655,6 +3807,7 @@ var (
 
 	CardLaurentChevalier = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             3,
@@ -3679,6 +3832,7 @@ var (
 
 	CardAbsorbSoul = proto.Card{
 		ArtistName:         "Kudos Productions",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -3703,6 +3857,7 @@ var (
 
 	CardAvarosanOutriders = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             3,
@@ -3727,6 +3882,7 @@ var (
 
 	CardCrawlingSensation = proto.Card{
 		ArtistName:         "Kudos Productions",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{"01SI002"},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -3751,6 +3907,7 @@ var (
 
 	CardBraumT1 = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{"01FR053", "01FR009T2", "01FR009"},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -3775,6 +3932,7 @@ var (
 
 	CardShadowFiend = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             4,
@@ -3799,6 +3957,7 @@ var (
 
 	CardStatikkShock = proto.Card{
 		ArtistName:         "Kudos Production",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -3823,6 +3982,7 @@ var (
 
 	CardSpectralRider24 = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             3,
@@ -3847,6 +4007,7 @@ var (
 
 	CardTorturedProdigy = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             3,
@@ -3871,6 +4032,7 @@ var (
 
 	CardAlphaWildclaw = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             7,
@@ -3895,6 +4057,7 @@ var (
 
 	CardIntimidatingRoar = proto.Card{
 		ArtistName:         "Kudos Productions",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -3919,6 +4082,7 @@ var (
 
 	CardCrimsonPactT2 = proto.Card{
 		ArtistName:         "Max Grecke",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{"01NX006"},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -3943,6 +4107,7 @@ var (
 
 	CardGoldenCrushbot = proto.Card{
 		ArtistName:         "Dao Le",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             2,
@@ -3967,6 +4132,7 @@ var (
 
 	CardLegionVeteran = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             4,
@@ -3991,6 +4157,7 @@ var (
 
 	CardBrittleSteel = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -4015,6 +4182,7 @@ var (
 
 	CardShirazatheBlade = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             3,
@@ -4039,6 +4207,7 @@ var (
 
 	CardObliviousIslander = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             2,
@@ -4063,6 +4232,7 @@ var (
 
 	CardThreshsTheBoxT2 = proto.Card{
 		ArtistName:         "Kudos Productions",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{"01SI052", "01SI052T1"},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -4087,6 +4257,7 @@ var (
 
 	CardRummage = proto.Card{
 		ArtistName:         "Max Grecke",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -4111,6 +4282,7 @@ var (
 
 	CardKatarinaT2 = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{"01NX042", "01NX042T1"},
 		AssociatedCards:    []string{},
 		Attack:             4,
@@ -4135,6 +4307,7 @@ var (
 
 	CardScarmotherVrynna = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             3,
@@ -4159,6 +4332,7 @@ var (
 
 	CardScrapdashAssembly = proto.Card{
 		ArtistName:         "Kudos Productions",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{"01PZ032"},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -4183,6 +4357,7 @@ var (
 
 	CardIronHarbinger = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             2,
@@ -4207,6 +4382,7 @@ var (
 
 	CardBlackSpear = proto.Card{
 		ArtistName:         "Wild Blue Studios",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -4231,6 +4407,7 @@ var (
 
 	CardHaplessAristocrat = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{"01SI002"},
 		AssociatedCards:    []string{},
 		Attack:             1,
@@ -4255,6 +4432,7 @@ var (
 
 	CardRush = proto.Card{
 		ArtistName:         "Kudos Productions",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -4279,6 +4457,7 @@ var (
 
 	CardHeimerdingersProgressDayT3 = proto.Card{
 		ArtistName:         "Kudos Productions",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{"01PZ056", "01PZ056T10"},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -4303,6 +4482,7 @@ var (
 
 	CardWintersBreath = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -4327,6 +4507,7 @@ var (
 
 	CardRemembrance = proto.Card{
 		ArtistName:         "Original Force",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -4351,6 +4532,7 @@ var (
 
 	CardStirredSpirits = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             3,
@@ -4375,6 +4557,7 @@ var (
 
 	CardThermogenicBeam = proto.Card{
 		ArtistName:         "Max Grecke",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -4399,6 +4582,7 @@ var (
 
 	CardFioraT1 = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{"01DE045T2", "01DE045"},
 		AssociatedCards:    []string{},
 		Attack:             4,
@@ -4423,6 +4607,7 @@ var (
 
 	CardAvarosanHearthguard = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             5,
@@ -4447,6 +4632,7 @@ var (
 
 	CardCaptainFarron = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{"01NX002"},
 		AssociatedCards:    []string{},
 		Attack:             8,
@@ -4471,6 +4657,7 @@ var (
 
 	CardPoroHerder = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             3,
@@ -4495,6 +4682,7 @@ var (
 
 	CardLuxT2 = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{"01DE042T3", "01DE042T1", "01DE042"},
 		AssociatedCards:    []string{},
 		Attack:             6,
@@ -4519,6 +4707,7 @@ var (
 
 	CardLegionRearguard = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             3,
@@ -4543,6 +4732,7 @@ var (
 
 	CardMageseekerConservator = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             1,
@@ -4567,6 +4757,7 @@ var (
 
 	CardUnleashedSpiritT1 = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             1,
@@ -4591,6 +4782,7 @@ var (
 
 	CardBorderLookout = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             1,
@@ -4615,6 +4807,7 @@ var (
 
 	CardVanguardFirstblade = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             2,
@@ -4639,6 +4832,7 @@ var (
 
 	CardBladesEdge = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -4663,6 +4857,7 @@ var (
 
 	CardSilverwingScout = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             2,
@@ -4687,6 +4882,7 @@ var (
 
 	CardStaggeringStrikesT1 = proto.Card{
 		ArtistName:         "Kudos Productions",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -4711,6 +4907,7 @@ var (
 
 	CardKalistasBlackSpearT1 = proto.Card{
 		ArtistName:         "Wild Blue Studios",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{"01SI030", "01SI030T2"},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -4735,6 +4932,7 @@ var (
 
 	CardLegionGrenadier = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             3,
@@ -4759,6 +4957,7 @@ var (
 
 	CardDecimate = proto.Card{
 		ArtistName:         "Max Grecke",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -4783,6 +4982,7 @@ var (
 
 	CardZephyrSage = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             4,
@@ -4807,6 +5007,7 @@ var (
 
 	CardFrenziedSkitterer = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             3,
@@ -4831,6 +5032,7 @@ var (
 
 	CardLegionGeneral = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             4,
@@ -4855,6 +5057,7 @@ var (
 
 	CardLegionDrummer = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             3,
@@ -4879,6 +5082,7 @@ var (
 
 	CardSilverwingVanguard = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{"01DE004"},
 		AssociatedCards:    []string{},
 		Attack:             2,
@@ -4903,6 +5107,7 @@ var (
 
 	CardVengeance = proto.Card{
 		ArtistName:         "Max Grecke",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -4927,6 +5132,7 @@ var (
 
 	CardLaurentProtege = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             2,
@@ -4951,6 +5157,7 @@ var (
 
 	CardGreengladeLookout = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             2,
@@ -4975,6 +5182,7 @@ var (
 
 	CardAstuteAcademic = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             1,
@@ -4999,6 +5207,7 @@ var (
 
 	CardTeemo = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{"01PZ022", "01PZ008T2", "01PZ008T1"},
 		AssociatedCards:    []string{},
 		Attack:             1,
@@ -5023,6 +5232,7 @@ var (
 
 	CardMk5RocketBlasterT2 = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             5,
@@ -5047,6 +5257,7 @@ var (
 
 	CardUnlicensedInnovation = proto.Card{
 		ArtistName:         "Kudos Productions",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{"01PZ014T1"},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -5071,6 +5282,7 @@ var (
 
 	CardSuccession = proto.Card{
 		ArtistName:         "Kudos Productions",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{"01DE016"},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -5095,6 +5307,7 @@ var (
 
 	CardArenaBookie = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             2,
@@ -5119,6 +5332,7 @@ var (
 
 	CardWhirlingDeath = proto.Card{
 		ArtistName:         "Rafael Zanchetin",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -5143,6 +5357,7 @@ var (
 
 	CardScarmaidenReaver = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             4,
@@ -5167,6 +5382,7 @@ var (
 
 	CardPurify = proto.Card{
 		ArtistName:         "Kudos Productions",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -5191,6 +5407,7 @@ var (
 
 	CardTarkazsFuryT1 = proto.Card{
 		ArtistName:         "Max Grecke",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -5215,6 +5432,7 @@ var (
 
 	CardHeartoftheFluft = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{"01FR043T1"},
 		AssociatedCards:    []string{},
 		Attack:             4,
@@ -5239,6 +5457,7 @@ var (
 
 	CardSnowHareT1 = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             1,
@@ -5263,6 +5482,7 @@ var (
 
 	CardWyrdingStones = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -5287,6 +5507,7 @@ var (
 
 	CardTheBox = proto.Card{
 		ArtistName:         "Kudos Productions",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -5311,6 +5532,7 @@ var (
 
 	CardFinalSparkT3 = proto.Card{
 		ArtistName:         "Kudos Productions",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -5335,6 +5557,7 @@ var (
 
 	CardMinahSwiftfoot = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{"01IO033T1"},
 		AssociatedCards:    []string{},
 		Attack:             6,
@@ -5359,6 +5582,7 @@ var (
 
 	CardVision = proto.Card{
 		ArtistName:         "Kudos Productions",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -5383,6 +5607,7 @@ var (
 
 	CardIcevaleArcher = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             3,
@@ -5407,6 +5632,7 @@ var (
 
 	CardSumpsnipeScavenger = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{"01PZ026"},
 		AssociatedCards:    []string{},
 		Attack:             4,
@@ -5431,6 +5657,7 @@ var (
 
 	CardElixirofIron = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -5455,6 +5682,7 @@ var (
 
 	CardKindlyTavernkeeper = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             2,
@@ -5479,6 +5707,7 @@ var (
 
 	CardIllegalContraptionT1 = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             5,
@@ -5503,6 +5732,7 @@ var (
 
 	CardTrifarianShieldbreaker = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             6,
@@ -5527,6 +5757,7 @@ var (
 
 	CardTryndamereT2 = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{"01FR039T1", "01FR039"},
 		AssociatedCards:    []string{},
 		Attack:             9,
@@ -5551,6 +5782,7 @@ var (
 
 	CardAsheT2 = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{"01FR038T3", "01FR038T1", "01FR038"},
 		AssociatedCards:    []string{},
 		Attack:             6,
@@ -5575,6 +5807,7 @@ var (
 
 	CardAcceleratedPurrsuit = proto.Card{
 		ArtistName:         "Kudos Productions",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{"01PZ033T1"},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -5599,6 +5832,7 @@ var (
 
 	CardYasuo = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{"01IO015T1", "01IO015T2"},
 		AssociatedCards:    []string{},
 		Attack:             4,
@@ -5623,6 +5857,7 @@ var (
 
 	CardRitualofRenewal = proto.Card{
 		ArtistName:         "Kudos Productions",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -5647,6 +5882,7 @@ var (
 
 	CardDauntlessVanguard16 = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             3,
@@ -5671,6 +5907,7 @@ var (
 
 	CardStandUnited = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -5695,6 +5932,7 @@ var (
 
 	CardTwinDisciplines = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -5719,6 +5957,7 @@ var (
 
 	CardBalesightT1 = proto.Card{
 		ArtistName:         "Max Grecke",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -5743,6 +5982,7 @@ var (
 
 	CardMageseekerPersuader = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             4,
@@ -5767,6 +6007,7 @@ var (
 
 	CardMinotaurReckoner = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             6,
@@ -5791,6 +6032,7 @@ var (
 
 	CardBatteringRam = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -5815,6 +6057,7 @@ var (
 
 	CardVanguardSquire = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             3,
@@ -5839,6 +6082,7 @@ var (
 
 	CardRavenousButcher = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             3,
@@ -5863,6 +6107,7 @@ var (
 
 	CardZedsShadowshiftT3 = proto.Card{
 		ArtistName:         "Max Grecke",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{"01IO009T1", "01IO009", "01IO009T2"},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -5887,6 +6132,7 @@ var (
 
 	CardHecarimsOnslaughtofShadowsT2 = proto.Card{
 		ArtistName:         "Kudos Productions",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{"01SI024", "01SI042", "01SI042T1"},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -5911,6 +6157,7 @@ var (
 
 	CardRiposte = proto.Card{
 		ArtistName:         "Kudos Productions",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -5935,6 +6182,7 @@ var (
 
 	CardMk7ArmoredStomperT5 = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             7,
@@ -5959,6 +6207,7 @@ var (
 
 	CardFreshOfferings = proto.Card{
 		ArtistName:         "Kudos Productions",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{"01SI027T1"},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -5983,6 +6232,7 @@ var (
 
 	CardAssemblyBot = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             2,
@@ -6007,6 +6257,7 @@ var (
 
 	CardWindfarerHatchling = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             4,
@@ -6031,6 +6282,7 @@ var (
 
 	CardPoroSnax = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -6055,6 +6307,7 @@ var (
 
 	CardCrimsonAristocrat = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             2,
@@ -6079,6 +6332,7 @@ var (
 
 	CardJinxT1 = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{"01PZ040T2", "01PZ040T3", "01PZ040"},
 		AssociatedCards:    []string{},
 		Attack:             5,
@@ -6103,6 +6357,7 @@ var (
 
 	CardBattleFury = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -6127,6 +6382,7 @@ var (
 
 	CardReinforcements = proto.Card{
 		ArtistName:         "Kudos Productions",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{"01DE016"},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -6151,6 +6407,7 @@ var (
 
 	CardChainVest = proto.Card{
 		ArtistName:         "Kudos Productions",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -6175,6 +6432,7 @@ var (
 
 	CardZed = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{"01IO009T1", "01IO009T2", "01IO009T3"},
 		AssociatedCards:    []string{},
 		Attack:             3,
@@ -6199,6 +6457,7 @@ var (
 
 	CardKatarinasDeathLotusT1 = proto.Card{
 		ArtistName:         "Rafael Zanchetin",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{"01NX042", "01NX042T2"},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -6223,6 +6482,7 @@ var (
 
 	CardTrifarianHopeful = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             3,
@@ -6247,6 +6507,7 @@ var (
 
 	CardBraumsTakeHeartT2 = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{"01FR009", "01FR009T1"},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -6271,6 +6532,7 @@ var (
 
 	CardMistwraith = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             2,
@@ -6295,6 +6557,7 @@ var (
 
 	CardElixirofWrath = proto.Card{
 		ArtistName:         "Kudos Productions",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -6319,6 +6582,7 @@ var (
 
 	CardSilentShadowseer = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             3,
@@ -6343,6 +6607,7 @@ var (
 
 	CardHauntedRelic = proto.Card{
 		ArtistName:         "Kudos Productions",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{"01SI007T1"},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -6367,6 +6632,7 @@ var (
 
 	CardMarkoftheIsles = proto.Card{
 		ArtistName:         "Kudos Productions",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -6391,6 +6657,7 @@ var (
 
 	CardShen = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{"01IO032T1", "01IO032T2"},
 		AssociatedCards:    []string{},
 		Attack:             2,
@@ -6415,6 +6682,7 @@ var (
 
 	CardPreciousPet = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             2,
@@ -6439,6 +6707,7 @@ var (
 
 	CardGraspoftheUndying = proto.Card{
 		ArtistName:         "Kudos Productions",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -6463,6 +6732,7 @@ var (
 
 	CardChempunkShredder = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{"01PZ044T2"},
 		AssociatedCards:    []string{},
 		Attack:             4,
@@ -6487,6 +6757,7 @@ var (
 
 	CardLonelyPoro = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{"01FR008T1"},
 		AssociatedCards:    []string{},
 		Attack:             1,
@@ -6511,6 +6782,7 @@ var (
 
 	CardKarma = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{"01IO041T1", "01IO041T2"},
 		AssociatedCards:    []string{},
 		Attack:             4,
@@ -6535,6 +6807,7 @@ var (
 
 	CardPossession = proto.Card{
 		ArtistName:         "Kudos Productions",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -6559,6 +6832,7 @@ var (
 
 	CardRadiantGuardian = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             5,
@@ -6583,6 +6857,7 @@ var (
 
 	CardEminentBenefactor = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             3,
@@ -6607,6 +6882,7 @@ var (
 
 	CardDeathLotus = proto.Card{
 		ArtistName:         "Rafael Zanchetin",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -6631,6 +6907,7 @@ var (
 
 	CardMk0WindupShredderT1 = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -6655,6 +6932,7 @@ var (
 
 	CardCloudDrinker = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             3,
@@ -6679,6 +6957,7 @@ var (
 
 	CardLaurentBladekeeper = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             2,
@@ -6703,6 +6982,7 @@ var (
 
 	CardWarmothersCall = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -6727,6 +7007,7 @@ var (
 
 	CardPurrsuitofPerfection = proto.Card{
 		ArtistName:         "Kudos Productions",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{"01PZ033T1"},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -6751,6 +7032,7 @@ var (
 
 	CardBladeofLedrosT1 = proto.Card{
 		ArtistName:         "Kudos Productions",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{"01SI033"},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -6775,6 +7057,7 @@ var (
 
 	CardFunsmith = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             2,
@@ -6799,6 +7082,7 @@ var (
 
 	CardSplinterSoul = proto.Card{
 		ArtistName:         "Max Grecke",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -6823,6 +7107,7 @@ var (
 
 	CardAtrocity = proto.Card{
 		ArtistName:         "Kudos Productions",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -6847,6 +7132,7 @@ var (
 
 	CardYasuosSteelTempestT2 = proto.Card{
 		ArtistName:         "Max Grecke",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{"01IO015", "01IO015T1"},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -6871,6 +7157,7 @@ var (
 
 	CardRecall = proto.Card{
 		ArtistName:         "Kudos Production",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -6895,6 +7182,7 @@ var (
 
 	CardLivingShadowT1 = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{"01IO009"},
 		AssociatedCards:    []string{},
 		Attack:             3,
@@ -6919,6 +7207,7 @@ var (
 
 	CardWillofIonia = proto.Card{
 		ArtistName:         "Max Grecke",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -6943,6 +7232,7 @@ var (
 
 	CardFatalStrikeT1 = proto.Card{
 		ArtistName:         "Kudos Productions",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{"01IO007"},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -6967,6 +7257,7 @@ var (
 
 	CardFeralMystic = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             2,
@@ -6991,6 +7282,7 @@ var (
 
 	CardSkywardStrikesT1 = proto.Card{
 		ArtistName:         "Kudos Productions",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -7015,6 +7307,7 @@ var (
 
 	CardNavoriBladescout = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             1,
@@ -7039,6 +7332,7 @@ var (
 
 	CardIcyYeti = proto.Card{
 		ArtistName:         "JiHun Lee",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             5,
@@ -7063,6 +7357,7 @@ var (
 
 	CardShunpo = proto.Card{
 		ArtistName:         "Kudos Productions",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -7087,6 +7382,7 @@ var (
 
 	CardPoisonPuffcap22 = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{"01PZ008"},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -7111,6 +7407,7 @@ var (
 
 	CardFaceMelterT2 = proto.Card{
 		ArtistName:         "Max Grecke",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -7135,6 +7432,7 @@ var (
 
 	CardMistsCall = proto.Card{
 		ArtistName:         "Rafael Zanchetin",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -7159,6 +7457,7 @@ var (
 
 	CardCataclysmT1 = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             30,
@@ -7183,6 +7482,7 @@ var (
 
 	CardTrifarianAssessor = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             4,
@@ -7207,6 +7507,7 @@ var (
 
 	CardPrismaticBarrier = proto.Card{
 		ArtistName:         "Kudos Productions",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -7231,6 +7532,7 @@ var (
 
 	CardVladimirT1 = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{"01NX006T2", "01NX006", "01NX006T3"},
 		AssociatedCards:    []string{},
 		Attack:             6,
@@ -7255,6 +7557,7 @@ var (
 
 	CardProfessorvonYipp = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             2,
@@ -7279,6 +7582,7 @@ var (
 
 	CardMk1WrenchbotT4 = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             1,
@@ -7303,6 +7607,7 @@ var (
 
 	CardTryndamere = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{"01FR039T2", "01FR039T1"},
 		AssociatedCards:    []string{},
 		Attack:             8,
@@ -7327,6 +7632,7 @@ var (
 
 	CardBullElnuk = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             4,
@@ -7351,6 +7657,7 @@ var (
 
 	CardBroodAwakening = proto.Card{
 		ArtistName:         "Kudos Productions",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{"01SI002"},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -7375,6 +7682,7 @@ var (
 
 	CardPackMentality = proto.Card{
 		ArtistName:         "Kudos Productions",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -7399,6 +7707,7 @@ var (
 
 	CardUnstableVoltician = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             4,
@@ -7423,6 +7732,7 @@ var (
 
 	CardWraithcaller = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{"01SI014"},
 		AssociatedCards:    []string{},
 		Attack:             4,
@@ -7447,6 +7757,7 @@ var (
 
 	CardSparringStudent = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             1,
@@ -7471,6 +7782,7 @@ var (
 
 	CardAshesFlashFreezeT1 = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{"01FR038", "01FR038T2"},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -7495,6 +7807,7 @@ var (
 
 	CardTarkaztheTribeless = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{"01FR021T1"},
 		AssociatedCards:    []string{},
 		Attack:             5,
@@ -7519,6 +7832,7 @@ var (
 
 	CardGreengladeDuo = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             2,
@@ -7543,6 +7857,7 @@ var (
 
 	CardBloodforBlood = proto.Card{
 		ArtistName:         "Kudos Productions",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -7567,6 +7882,7 @@ var (
 
 	CardKinkouWayfinder = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             2,
@@ -7591,6 +7907,7 @@ var (
 
 	CardSingleCombat = proto.Card{
 		ArtistName:         "Kudos Productions",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -7615,6 +7932,7 @@ var (
 
 	CardKatarina = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{"01NX042T2", "01NX042T1"},
 		AssociatedCards:    []string{},
 		Attack:             3,
@@ -7639,6 +7957,7 @@ var (
 
 	CardSharkChariot = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             3,
@@ -7663,6 +7982,7 @@ var (
 
 	CardAvarosanTrapper = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{"01FR028"},
 		AssociatedCards:    []string{},
 		Attack:             2,
@@ -7687,6 +8007,7 @@ var (
 
 	CardProgressDay = proto.Card{
 		ArtistName:         "Kudos Productions",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -7711,6 +8032,7 @@ var (
 
 	CardYusari = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             4,
@@ -7735,6 +8057,7 @@ var (
 
 	CardTroopofElnuks = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             3,
@@ -7759,6 +8082,7 @@ var (
 
 	CardHealthPotion = proto.Card{
 		ArtistName:         "Kudos Productions",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -7783,6 +8107,7 @@ var (
 
 	CardChroniclerofRuin = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             3,
@@ -7807,6 +8132,7 @@ var (
 
 	CardPlazaGuardian = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             5,
@@ -7831,6 +8157,7 @@ var (
 
 	CardRenShadowblade = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             6,
@@ -7855,6 +8182,7 @@ var (
 
 	CardAniviaT3 = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{"01FR024T4", "01FR024T1", "01FR024", "01FR024T5"},
 		AssociatedCards:    []string{},
 		Attack:             5,
@@ -7879,6 +8207,7 @@ var (
 
 	CardEtherealRemitter = proto.Card{
 		ArtistName:         "JiHun Lee",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             4,
@@ -7903,6 +8232,7 @@ var (
 
 	CardClumpofWhumps = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{"01PZ010"},
 		AssociatedCards:    []string{},
 		Attack:             2,
@@ -7927,6 +8257,7 @@ var (
 
 	CardEmeraldAwakener = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             2,
@@ -7951,6 +8282,7 @@ var (
 
 	CardTakeHeart = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -7975,6 +8307,7 @@ var (
 
 	CardSavageReckoner = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             7,
@@ -7999,6 +8332,7 @@ var (
 
 	CardEnGarde = proto.Card{
 		ArtistName:         "Kudos Productions",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -8023,6 +8357,7 @@ var (
 
 	CardSpectralMatron = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             6,
@@ -8047,6 +8382,7 @@ var (
 
 	CardRimetuskShaman = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             3,
@@ -8071,6 +8407,7 @@ var (
 
 	CardDeny = proto.Card{
 		ArtistName:         "Kudos Productions",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -8095,6 +8432,7 @@ var (
 
 	CardTrifarianGloryseeker = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             5,
@@ -8119,6 +8457,7 @@ var (
 
 	CardFlameChompers = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -8143,6 +8482,7 @@ var (
 
 	CardAncientYeti = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             5,
@@ -8167,6 +8507,7 @@ var (
 
 	CardVanguardSergeant = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{"01DE035"},
 		AssociatedCards:    []string{},
 		Attack:             3,
@@ -8191,6 +8532,7 @@ var (
 
 	CardBullseyeT1 = proto.Card{
 		ArtistName:         "Max Grecke",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -8215,6 +8557,7 @@ var (
 
 	CardMightyPoro = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             3,
@@ -8239,6 +8582,7 @@ var (
 
 	CardNavoriBrigandT1 = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             1,
@@ -8263,6 +8607,7 @@ var (
 
 	CardArachnoidHorror = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             3,
@@ -8287,6 +8632,7 @@ var (
 
 	CardGetExcited = proto.Card{
 		ArtistName:         "Original Force",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -8311,6 +8657,7 @@ var (
 
 	CardMk6StormlobberT9 = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             6,
@@ -8335,6 +8682,7 @@ var (
 
 	CardSennaSentinelofLight = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{"01DE022", "01DE022T1"},
 		AssociatedCards:    []string{},
 		Attack:             4,
@@ -8359,6 +8707,7 @@ var (
 
 	CardBloodswornPledge = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -8383,6 +8732,7 @@ var (
 
 	CardNavoriHighwayman = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{"01IO052T1"},
 		AssociatedCards:    []string{},
 		Attack:             1,
@@ -8407,6 +8757,7 @@ var (
 
 	CardTheEmpyrean = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             6,
@@ -8431,6 +8782,7 @@ var (
 
 	CardBacktoBack = proto.Card{
 		ArtistName:         "Kudos Productions",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -8455,6 +8807,7 @@ var (
 
 	CardVladimir = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{"01NX006T1", "01NX006T2", "01NX006T3"},
 		AssociatedCards:    []string{},
 		Attack:             5,
@@ -8479,6 +8832,7 @@ var (
 
 	CardFlashofBrilliance = proto.Card{
 		ArtistName:         "Kudos Productions",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -8503,6 +8857,7 @@ var (
 
 	CardEzrealsMysticShotT2 = proto.Card{
 		ArtistName:         "Max Grecke",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{"01PZ036", "01PZ036T1"},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -8527,6 +8882,7 @@ var (
 
 	CardForDemacia = proto.Card{
 		ArtistName:         "Original Force",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -8551,6 +8907,7 @@ var (
 
 	CardBasiliskRider = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             4,
@@ -8575,6 +8932,7 @@ var (
 
 	CardGreengladeCaretaker = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             1,
@@ -8599,6 +8957,7 @@ var (
 
 	CardRadiantStrike = proto.Card{
 		ArtistName:         "Kudos Productions",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -8623,6 +8982,7 @@ var (
 
 	CardInsightofAges = proto.Card{
 		ArtistName:         "Kudos Productions",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{"01IO054"},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -8647,6 +9007,7 @@ var (
 
 	CardTheRekindler = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             5,
@@ -8671,6 +9032,7 @@ var (
 
 	CardFlashFreeze = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -8695,6 +9057,7 @@ var (
 
 	CardChumpWhump = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{"01PZ010"},
 		AssociatedCards:    []string{},
 		Attack:             4,
@@ -8719,6 +9082,7 @@ var (
 
 	CardHecarim = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{"01SI024", "01SI042T1", "01SI042T2"},
 		AssociatedCards:    []string{},
 		Attack:             4,
@@ -8743,6 +9107,7 @@ var (
 
 	CardBrightsteelProtector = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             3,
@@ -8767,6 +9132,7 @@ var (
 
 	CardWitheringWail = proto.Card{
 		ArtistName:         "Kudos Productions",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -8791,6 +9157,7 @@ var (
 
 	CardAmateurAeronaut = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             2,
@@ -8815,6 +9182,7 @@ var (
 
 	CardShensStandUnitedT2 = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{"01IO032", "01IO032T1"},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -8839,6 +9207,7 @@ var (
 
 	CardRhasatheSunderer = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{"01SI035T1"},
 		AssociatedCards:    []string{},
 		Attack:             7,
@@ -8863,6 +9232,7 @@ var (
 
 	CardAnivia = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{"01FR024T3", "01FR024T2", "01FR024T4", "01FR024T1"},
 		AssociatedCards:    []string{},
 		Attack:             4,
@@ -8887,6 +9257,7 @@ var (
 
 	CardAffectionatePoro = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             1,
@@ -8911,6 +9282,7 @@ var (
 
 	CardIntrepidMariner = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             1,
@@ -8935,6 +9307,7 @@ var (
 
 	CardLux = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{"01DE042T2", "01DE042T1", "01DE042T3"},
 		AssociatedCards:    []string{},
 		Attack:             5,
@@ -8959,6 +9332,7 @@ var (
 
 	CardFiorasRiposteT2 = proto.Card{
 		ArtistName:         "Kudos Productions",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{"01DE045", "01DE045T1"},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -8983,6 +9357,7 @@ var (
 
 	CardDravensBiggestFan = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{"01NX020"},
 		AssociatedCards:    []string{},
 		Attack:             2,
@@ -9007,6 +9382,7 @@ var (
 
 	CardGlacialStorm2 = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{"01FR024", "01FR024T3"},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -9031,6 +9407,7 @@ var (
 
 	CardRecklessTrifarian = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             5,
@@ -9055,6 +9432,7 @@ var (
 
 	CardDarkwaterScourge = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             5,
@@ -9079,6 +9457,7 @@ var (
 
 	CardSteelTempest = proto.Card{
 		ArtistName:         "Max Grecke",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -9103,6 +9482,7 @@ var (
 
 	CardCithriaofCloudfield = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             2,
@@ -9127,6 +9507,7 @@ var (
 
 	CardVladimirsTransfusionT3 = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{"01NX006", "01NX006T1"},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -9151,6 +9532,7 @@ var (
 
 	CardFluftofPorosT1 = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{"01FR043"},
 		AssociatedCards:    []string{},
 		Attack:             4,
@@ -9175,6 +9557,7 @@ var (
 
 	CardFleetfeatherTracker = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             2,
@@ -9199,6 +9582,7 @@ var (
 
 	CardSpiritsRefuge = proto.Card{
 		ArtistName:         "Kudos Productions",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -9223,6 +9607,7 @@ var (
 
 	CardMk4ApexTurretT8 = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             4,
@@ -9247,6 +9632,7 @@ var (
 
 	CardEggniviaT4 = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{"01FR024T3", "01FR024", "01FR024T1"},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -9271,6 +9657,7 @@ var (
 
 	CardSumpworksMap = proto.Card{
 		ArtistName:         "Kudos Productions",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -9295,6 +9682,7 @@ var (
 
 	CardMight = proto.Card{
 		ArtistName:         "Kudos Productions",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -9319,6 +9707,7 @@ var (
 
 	CardVanguardCavalry = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             5,
@@ -9343,6 +9732,7 @@ var (
 
 	CardRivershaper = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             2,
@@ -9367,6 +9757,7 @@ var (
 
 	CardChempunkPickpocket = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             2,
@@ -9391,6 +9782,7 @@ var (
 
 	CardStarlitSeer = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             2,
@@ -9415,6 +9807,7 @@ var (
 
 	CardSolitaryMonk = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             4,
@@ -9439,6 +9832,7 @@ var (
 
 	CardSheWhoWanders = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{"01FR052T1"},
 		AssociatedCards:    []string{},
 		Attack:             10,
@@ -9463,6 +9857,7 @@ var (
 
 	CardTallTales = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{"01FR028"},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -9487,6 +9882,7 @@ var (
 
 	CardNoxianGuillotine = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -9511,6 +9907,7 @@ var (
 
 	CardCausticCask = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -9535,6 +9932,7 @@ var (
 
 	CardWardensPrey = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             1,
@@ -9559,6 +9957,7 @@ var (
 
 	CardDisciplineofForceT1 = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -9583,6 +9982,7 @@ var (
 
 	CardVanguardRedeemer = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             3,
@@ -9607,6 +10007,7 @@ var (
 
 	CardKarmasInsightofAgesT2 = proto.Card{
 		ArtistName:         "Kudos Productions",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{"01IO041", "01IO041T1", "01IO054"},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -9631,6 +10032,7 @@ var (
 
 	CardShadowshift = proto.Card{
 		ArtistName:         "Max Grecke",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{"01IO009T1"},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -9655,6 +10057,7 @@ var (
 
 	CardCrimsonAwakener = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             5,
@@ -9679,6 +10082,7 @@ var (
 
 	CardMageseekerInvestigator = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{"01DE025"},
 		AssociatedCards:    []string{},
 		Attack:             2,
@@ -9703,6 +10107,7 @@ var (
 
 	CardKatoTheArm = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             5,
@@ -9727,6 +10132,7 @@ var (
 
 	CardVileFeast = proto.Card{
 		ArtistName:         "Kudos Productions",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{"01SI002"},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -9751,6 +10157,7 @@ var (
 
 	CardTheyWhoEndure = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             1,
@@ -9775,6 +10182,7 @@ var (
 
 	CardCithriatheBold = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             6,
@@ -9799,6 +10207,7 @@ var (
 
 	CardYoneWindchaser = proto.Card{
 		ArtistName:         "Aron Elekes",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{"01IO056T1"},
 		AssociatedCards:    []string{},
 		Attack:             6,
@@ -9823,6 +10232,7 @@ var (
 
 	CardKiGuardian = proto.Card{
 		ArtistName:         "Kudos Productions",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -9847,6 +10257,7 @@ var (
 
 	CardRedoubledValor = proto.Card{
 		ArtistName:         "Rafael Zanchetin",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -9871,6 +10282,7 @@ var (
 
 	CardTheRuination = proto.Card{
 		ArtistName:         "Oliver Chipping",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -9895,6 +10307,7 @@ var (
 
 	CardThreshT1 = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{"01SI052T2", "01SI052"},
 		AssociatedCards:    []string{},
 		Attack:             4,
@@ -9919,6 +10332,7 @@ var (
 
 	CardGuile = proto.Card{
 		ArtistName:         "Kudos Productions",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -9943,6 +10357,7 @@ var (
 
 	CardBabblingBjerg = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             3,
@@ -9967,6 +10382,7 @@ var (
 
 	CardGaren = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{"01DE012T1", "01DE012T2"},
 		AssociatedCards:    []string{},
 		Attack:             6,
@@ -9991,6 +10407,7 @@ var (
 
 	CardSpinningAxeT1 = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{"01NX020", "01NX020T3"},
 		AssociatedCards:    []string{},
 		Attack:             0,
@@ -10015,6 +10432,7 @@ var (
 
 	CardAvarosanSentry = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             2,
@@ -10039,6 +10457,7 @@ var (
 
 	CardSoulgorger = proto.Card{
 		ArtistName:         "SIXMOREVODKA",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             3,
@@ -10063,6 +10482,7 @@ var (
 
 	CardFadingMemories = proto.Card{
 		ArtistName:         "Kudos Productions",
+		Assets:             []*proto.Asset{},
 		AssociatedCardRefs: []string{},
 		AssociatedCards:    []string{},
 		Attack:             0,
