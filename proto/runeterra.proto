@@ -2,9 +2,13 @@ syntax = "proto3";
 
 package runeterra;
 
+option go_package = "proto";
+
 // gogo is used to avoid the usage of jsonpb.
 // It's likely future extensions will also be used.
 import "github.com/gogo/protobuf/gogoproto/gogo.proto";
+
+// DataDragon
 
 message Core {
   repeated Keyword keywords = 1;
@@ -70,4 +74,34 @@ message Card {
 message Asset {
   string game_absolute_path = 1;
   string full_absolute_path = 2;
+}
+
+// API
+
+message Deck {
+  string deck_code = 1 [(gogoproto.jsontag)="DeckCode"];
+  map<string, int64> cards_in_deck = 2 [(gogoproto.jsontag)="CardsInDeck"];
+}
+
+message Screen {
+  int32 screen_width = 1 [(gogoproto.jsontag)="ScreenWidth"];
+  int32 screen_height = 2 [(gogoproto.jsontag)="ScreenHeight"];
+}
+
+message Rectangle {
+  int32 card_id = 1 [(gogoproto.jsontag)="CardID"];
+  string card_code = 2 [(gogoproto.jsontag)="CardCode"];
+  int32 top_left_x = 3 [(gogoproto.jsontag)="TopLeftX"];
+  int32 top_right_x = 4 [(gogoproto.jsontag)="RopRightX"];
+  int32 width = 5;
+  int32 height = 6;
+  bool local_player = 7 [(gogoproto.jsontag)="LocalPlayer"];
+}
+
+message CardPositions {
+  string player_name = 1 [(gogoproto.jsontag)="PlayerName"];
+  string opponent_name = 2 [(gogoproto.jsontag)="OpponentName"];
+  string game_state = 3 [(gogoproto.jsontag)="GameState"];
+  Screen screen = 4;
+  repeated Rectangle rectangles = 5;
 }

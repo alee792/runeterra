@@ -65,9 +65,11 @@ func generateCore(pkg, in, out string) error {
 
 	// Begin generation.
 	var cc []jen.Code
+
 	basePkg := "github.com/alee792/runeterra/proto"
 
 	cc = append(cc, jen.Comment("Keywords"))
+
 	for _, v := range core.GetKeywords() {
 		cleanName := reg.ReplaceAllString(v.GetName(), "")
 		cc = append(cc,
@@ -137,10 +139,7 @@ func generateSet(pkg, in, out string) error {
 	f := jen.NewFile("datadragon")
 	f.Comment("Auto-generated from Data Dragon.")
 
-	reg, err := regexp.Compile("[^a-zA-Z0-9]+")
-	if err != nil {
-		return err
-	}
+	reg := regexp.MustCompile("[^a-zA-Z0-9]+")
 
 	bb, err := ioutil.ReadFile(in)
 	if err != nil {
@@ -152,48 +151,60 @@ func generateSet(pkg, in, out string) error {
 		return err
 	}
 
-	var cc []jen.Code
+	cc := []jen.Code{}
 	basePkg := "github.com/alee792/runeterra/proto"
+	cardDict := jen.Dict{}
 
 	cc = append(cc, jen.Comment("Cards"))
+
 	for _, v := range set {
 		cleanName := reg.ReplaceAllString(v.GetName(), "")
+
 		if v.GetRarity() == "None" {
 			code := v.GetCardCode()
 			cleanName = fmt.Sprintf("%s%s", cleanName, code[len(code)-2:])
+		}
+
+		c := jen.Dict{
+			jen.Id("CardCode"):           jen.Lit(v.GetCardCode()),
+			jen.Id("Name"):               jen.Lit(v.GetName()),
+			jen.Id("Region"):             jen.Lit(v.GetRegion()),
+			jen.Id("RegionRef"):          jen.Lit(v.GetRegionRef()),
+			jen.Id("Attack"):             jen.Lit(int(v.GetAttack())),
+			jen.Id("Cost"):               jen.Lit(int(v.GetCost())),
+			jen.Id("Health"):             jen.Lit(int(v.GetHealth())),
+			jen.Id("Description"):        jen.Lit(v.GetDescription()),
+			jen.Id("DescriptionRaw"):     jen.Lit(v.GetDescriptionRaw()),
+			jen.Id("FlavorText"):         jen.Lit(v.GetFlavorText()),
+			jen.Id("ArtistName"):         jen.Lit(v.GetArtistName()),
+			jen.Id("SpellSpeed"):         jen.Lit(v.GetSpellSpeed()),
+			jen.Id("Rarity"):             jen.Lit(v.GetRarity()),
+			jen.Id("RarityRef"):          jen.Lit(v.GetRegionRef()),
+			jen.Id("Subtype"):            jen.Lit(v.GetSubtype()),
+			jen.Id("Supertype"):          jen.Lit(v.GetSupertype()),
+			jen.Id("Collectible"):        jen.Lit(v.GetCollectible()),
+			jen.Id("AssociatedCards"):    jen.Index().String().Values(wrapLit(v.GetAssociatedCards())...),
+			jen.Id("AssociatedCardRefs"): jen.Index().String().Values(wrapLit(v.GetAssociatedCardRefs())...),
+			jen.Id("Keywords"):           jen.Index().String().Values(wrapLit(v.GetKeywords())...),
+			jen.Id("KeywordRefs"):        jen.Index().String().Values(wrapLit(v.GetKeywordRefs())...),
+			jen.Id("Assets"):             jen.Index().Op("*").Qual(basePkg, "Asset").Values(unpackAssets(basePkg, v)...),
 		}
 		cc = append(cc,
 			jen.Id(fmt.Sprintf("Card%s", cleanName)).
 				Op("=").
 				Qual(basePkg, "Card").
-				Values(jen.Dict{
-					jen.Id("CardCode"):           jen.Lit(v.GetCardCode()),
-					jen.Id("Name"):               jen.Lit(v.GetName()),
-					jen.Id("Region"):             jen.Lit(v.GetRegion()),
-					jen.Id("RegionRef"):          jen.Lit(v.GetRegionRef()),
-					jen.Id("Attack"):             jen.Lit(int(v.GetAttack())),
-					jen.Id("Cost"):               jen.Lit(int(v.GetCost())),
-					jen.Id("Health"):             jen.Lit(int(v.GetHealth())),
-					jen.Id("Description"):        jen.Lit(v.GetDescription()),
-					jen.Id("DescriptionRaw"):     jen.Lit(v.GetDescriptionRaw()),
-					jen.Id("FlavorText"):         jen.Lit(v.GetFlavorText()),
-					jen.Id("ArtistName"):         jen.Lit(v.GetArtistName()),
-					jen.Id("SpellSpeed"):         jen.Lit(v.GetSpellSpeed()),
-					jen.Id("Rarity"):             jen.Lit(v.GetRarity()),
-					jen.Id("RarityRef"):          jen.Lit(v.GetRegionRef()),
-					jen.Id("Subtype"):            jen.Lit(v.GetSubtype()),
-					jen.Id("Supertype"):          jen.Lit(v.GetSupertype()),
-					jen.Id("Collectible"):        jen.Lit(v.GetCollectible()),
-					jen.Id("AssociatedCards"):    jen.Index().String().Values(wrapLit(v.GetAssociatedCards())...),
-					jen.Id("AssociatedCardRefs"): jen.Index().String().Values(wrapLit(v.GetAssociatedCardRefs())...),
-					jen.Id("Keywords"):           jen.Index().String().Values(wrapLit(v.GetKeywords())...),
-					jen.Id("KeywordRefs"):        jen.Index().String().Values(wrapLit(v.GetKeywordRefs())...),
-					jen.Id("Assets"):             jen.Index().Op("*").Qual(basePkg, "Asset").Values(unpackAssets(basePkg, v)...),
-				}).Op("\n"),
+				Values(c).
+				Op("\n"),
 		)
+
+		cardDict[jen.Lit(v.GetCardCode())] = jen.Qual(basePkg, "Card").Values(c)
 	}
 
 	f.Var().Defs(cc...)
+
+	f.Func().Id("Cards").Params().Id("map[string]proto.Card").Block(
+		jen.Return(jen.Map(jen.String()).Id("proto.Card").Values(cardDict)),
+	)
 
 	if out == "" {
 		f.Println()
