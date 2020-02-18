@@ -165,6 +165,8 @@ func generateSet(pkg, in, out string) error {
 			cleanName = fmt.Sprintf("%s%s", cleanName, code[len(code)-2:])
 		}
 
+		varName := fmt.Sprintf("Card%s", cleanName)
+
 		c := jen.Dict{
 			jen.Id("CardCode"):           jen.Lit(v.GetCardCode()),
 			jen.Id("Name"):               jen.Lit(v.GetName()),
@@ -190,14 +192,14 @@ func generateSet(pkg, in, out string) error {
 			jen.Id("Assets"):             jen.Index().Op("*").Qual(basePkg, "Asset").Values(unpackAssets(basePkg, v)...),
 		}
 		cc = append(cc,
-			jen.Id(fmt.Sprintf("Card%s", cleanName)).
+			jen.Id(varName).
 				Op("=").
 				Qual(basePkg, "Card").
 				Values(c).
 				Op("\n"),
 		)
 
-		cardDict[jen.Lit(v.GetCardCode())] = jen.Qual(basePkg, "Card").Values(c)
+		cardDict[jen.Lit(v.GetCardCode())] = jen.Id(varName)
 	}
 
 	f.Var().Defs(cc...)
