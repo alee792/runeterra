@@ -40,7 +40,6 @@ func main() {
 		}
 	default:
 	}
-
 }
 
 func generateCore(pkg, in, out string) error {
@@ -64,8 +63,7 @@ func generateCore(pkg, in, out string) error {
 	}
 
 	// Begin generation.
-	var cc []jen.Code
-
+	cc := []jen.Code
 	basePkg := "github.com/alee792/runeterra/proto"
 
 	cc = append(cc, jen.Comment("Keywords"))
