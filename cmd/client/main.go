@@ -26,4 +26,11 @@ func main() {
 	}
 
 	fmt.Printf("CardPositions: %#v\n", cp)
+
+	gr, err := c.GetGameResult(ctx)
+	if err != nil {
+		panic(err)
+	}
+
+	fmt.Printf("GameResult: %#v\n", gr)
 }
