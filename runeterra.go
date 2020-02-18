@@ -1,4 +1,4 @@
-package game
+package runeterra
 
 import (
 	"context"
@@ -14,6 +14,7 @@ import (
 const (
 	StaticDecklistEndpoint = "/static-decklist"
 	CardPositionsEndpoint  = "/positional-rectangles"
+	GameResultEndpoint     = "/game-result"
 )
 
 // Client interacts with LoR endpoints.
@@ -94,3 +95,6 @@ func (c *Client) GetCardPositions(ctx context.Context) (*proto.CardPositions, er
 
 	return out, nil
 }
+
+// GetGameResult returns a player's most recently completed game.
+func (c *Client) GetGameResult(ctx context.Context) {}

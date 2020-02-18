@@ -1,4 +1,4 @@
-package game
+package runeterra
 
 import (
 	"github.com/alee792/runeterra/proto"

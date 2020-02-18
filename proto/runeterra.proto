@@ -105,3 +105,8 @@ message CardPositions {
   Screen screen = 4;
   repeated Rectangle rectangles = 5;
 }
+
+message GameResult {
+  int32 game_id = 1 [(gogoproto.jsontag)="GameID"];
+  bool local_player_won = 2 [(gogoproto.jsontag)="LocalPlayerWon"];
+}

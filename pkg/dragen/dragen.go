@@ -1,69 +1,42 @@
-package main
+package dragen
 
 import (
 	"encoding/json"
 	"fmt"
 	"io/ioutil"
-	"os"
 	"regexp"
 	"strings"
 
-	pb "github.com/alee792/runeterra/proto"
+	"github.com/alee792/runeterra/proto"
 	"github.com/dave/jennifer/jen"
 	"github.com/pkg/errors"
-	kingpin "gopkg.in/alecthomas/kingpin.v2"
 )
 
-func main() {
-	var (
-		app = kingpin.New("dragen", "Generate Go types from Data Dragon")
-
-		pkg = app.Flag("pkg", "package name for the output file").Default("datadragon").String()
-
-		dTyp = app.Arg("type", "Data Dragon type").Required().HintOptions("core", "set").String()
-		in   = app.Arg("in", "path to Data Dragon file").Required().String()
-		out  = app.Arg("out", "path to write Go types to file").String()
-		// raw  = app.Flag("raw", "unpack Data Dragon into flat structs").Short('r').Bool()
-	)
-
-	app.HelpFlag.Short('h')
-	kingpin.MustParse(app.Parse(os.Args[1:]))
-
-	switch *dTyp {
-	case "core":
-		if err := generateCore(*pkg, *in, *out); err != nil {
-			panic(err)
-		}
-	case "set":
-		if err := generateSet(*pkg, *in, *out); err != nil {
-			panic(err)
-		}
-	default:
+// ReadCore a path to a Data Dragon bundle.
+func ReadCore(path string) (*proto.Core, error) {
+	// Read JSON.
+	bb, err := ioutil.ReadFile(path)
+	if err != nil {
+		return nil, err
 	}
+
+	var core proto.Core
+	if err := json.Unmarshal(bb, &core); err != nil {
+		return nil, err
+	}
+
+	return &core, nil
 }
 
-func generateCore(pkg, in, out string) error {
-	f := jen.NewFile("datadragon")
+// ParseCore turns a bundle into generated code.
+func ParseCore(pkgName string, core *proto.Core) (*jen.File, error) {
+	f := jen.NewFile(pkgName)
 	f.Comment("Auto-generated from Data Dragon.")
 
-	reg, err := regexp.Compile("[^a-zA-Z0-9]+")
-	if err != nil {
-		return err
-	}
-
-	// Read JSON.
-	bb, err := ioutil.ReadFile(in)
-	if err != nil {
-		return err
-	}
-
-	var core pb.Core
-	if err := json.Unmarshal(bb, &core); err != nil {
-		return err
-	}
+	reg := regexp.MustCompile("[^a-zA-Z0-9]+")
 
 	// Begin generation.
-	cc := []jen.Code
+	cc := []jen.Code{}
 	basePkg := "github.com/alee792/runeterra/proto"
 
 	cc = append(cc, jen.Comment("Keywords"))
@@ -121,6 +94,22 @@ func generateCore(pkg, in, out string) error {
 
 	f.Var().Defs(cc...)
 
+	return f, nil
+}
+
+// GenerateCore using a package name, reading from in and writing to out.
+func GenerateCore(pkgName, in, out string) error {
+	core, err := ReadCore(in)
+	if err != nil {
+		return errors.Wrap(err, "failed to read core")
+	}
+
+	f, err := ParseCore(pkgName, core)
+	if err != nil {
+		return errors.Wrap(err, "failed to parse core")
+	}
+
+	// Print to stdout if there's no output path.
 	if out == "" {
 		f.Println()
 		return nil
@@ -133,21 +122,27 @@ func generateCore(pkg, in, out string) error {
 	return nil
 }
 
-func generateSet(pkg, in, out string) error {
-	f := jen.NewFile("datadragon")
+// ReadSet from a Data Dragon path.
+func ReadSet(path string) ([]proto.Card, error) {
+	bb, err := ioutil.ReadFile(path)
+	if err != nil {
+		return nil, err
+	}
+
+	var set []proto.Card
+	if err := json.Unmarshal(bb, &set); err != nil {
+		return nil, err
+	}
+
+	return set, nil
+}
+
+// ParseSet turns a set of cards into generated code.
+func ParseSet(pkgName string, set []proto.Card) (*jen.File, error) {
+	f := jen.NewFile(pkgName)
 	f.Comment("Auto-generated from Data Dragon.")
 
 	reg := regexp.MustCompile("[^a-zA-Z0-9]+")
-
-	bb, err := ioutil.ReadFile(in)
-	if err != nil {
-		return err
-	}
-
-	var set []pb.Card
-	if err := json.Unmarshal(bb, &set); err != nil {
-		return err
-	}
 
 	cc := []jen.Code{}
 	basePkg := "github.com/alee792/runeterra/proto"
@@ -164,7 +159,6 @@ func generateSet(pkg, in, out string) error {
 		}
 
 		varName := fmt.Sprintf("Card%s", cleanName)
-
 		c := jen.Dict{
 			jen.Id("CardCode"):           jen.Lit(v.GetCardCode()),
 			jen.Id("Name"):               jen.Lit(v.GetName()),
@@ -196,16 +190,30 @@ func generateSet(pkg, in, out string) error {
 				Values(c).
 				Op("\n"),
 		)
-
 		cardDict[jen.Lit(v.GetCardCode())] = jen.Id(varName)
 	}
 
 	f.Var().Defs(cc...)
-
 	f.Func().Id("Cards").Params().Id("map[string]proto.Card").Block(
 		jen.Return(jen.Map(jen.String()).Id("proto.Card").Values(cardDict)),
 	)
 
+	return f, nil
+}
+
+// GenerateSet using a package name, reading from in and writing to out.
+func GenerateSet(pkgName, in, out string) error {
+	set, err := ReadSet(in)
+	if err != nil {
+		return errors.Wrap(err, "failed to read set")
+	}
+
+	f, err := ParseSet(pkgName, set)
+	if err != nil {
+		return errors.Wrap(err, "failed to parse set")
+	}
+
+	// Print to stdout if there' no output path.
 	if out == "" {
 		f.Println()
 		return nil
@@ -218,8 +226,8 @@ func generateSet(pkg, in, out string) error {
 	return nil
 }
 
-func unpackAssets(pkg string, v pb.Card) []jen.Code {
-	var ss []jen.Code
+func unpackAssets(pkg string, v proto.Card) []jen.Code {
+	ss := []jen.Code{}
 
 	aa := v.GetAssets()
 	if len(aa) == 1 && aa[0].GetFullAbsolutePath() == "" {
@@ -234,6 +242,7 @@ func unpackAssets(pkg string, v pb.Card) []jen.Code {
 			}),
 		)
 	}
+
 	return ss
 }
 
@@ -245,7 +254,7 @@ func unpackID(pkg, nameRef, name string) *jen.Statement {
 }
 
 func wrapLit(ss []string) []jen.Code {
-	var ll []jen.Code
+	ll := []jen.Code{}
 	for _, s := range ss {
 		ll = append(ll, jen.Lit(s))
 	}
